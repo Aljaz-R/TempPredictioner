@@ -1,0 +1,13 @@
+openweather:
+  units: metric
+  lang: en
+
+fetch:
+  enabled_only: true
+  request_timeout: 20
+  save_raw: true
+
+paths:
+  cities_file: data/metadata/cities.csv
+  raw_dir: data/raw/weather
+  processed_dir: data/processed/weather
